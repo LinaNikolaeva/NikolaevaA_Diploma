@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    tools:context=".front_page">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="195dp"
+        android:text="@string/app_in_name"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/ex1"
+        app:layout_constraintEnd_toStartOf="@+id/exit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/ex3"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/btn_front"
+        android:text="Запиши слово правильно"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ex4"
+        app:layout_constraintEnd_toEndOf="@+id/ex4"
+        app:layout_constraintStart_toStartOf="@+id/ex4"
+        app:layout_constraintTop_toBottomOf="@+id/ex2" />
+
+    <Button
+        android:id="@+id/ex5"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/btn_front"
+        android:text="Составь предложение"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ex4"
+        app:layout_constraintStart_toStartOf="@+id/ex4"
+        app:layout_constraintTop_toBottomOf="@+id/ex4" />
+
+    <Button
+        android:id="@+id/ex2"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_front"
+        android:text="Переведи слово"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ex3"
+        app:layout_constraintEnd_toEndOf="@+id/ex3"
+        app:layout_constraintStart_toStartOf="@+id/ex3"
+        app:layout_constraintTop_toBottomOf="@+id/ex1" />
+
+    <Button
+        android:id="@+id/ex4"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_front"
+        android:text="Как это произносится?"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ex5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ex3" />
+
+    <Button
+        android:id="@+id/ex1"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_front"
+        android:text="Какое слово пропущено?"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ex2"
+        app:layout_constraintEnd_toEndOf="@+id/ex2"
+        app:layout_constraintStart_toStartOf="@+id/ex2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="9dp"
+        android:text="X"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/btn_front"
+        android:textColor="@android:color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

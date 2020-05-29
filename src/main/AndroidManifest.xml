@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.korhomonyms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Quiz"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="같은 소리 다른 말"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Res_5">
+            <intent-filter>
+                <action android:name=".Res_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fifth_ex">
+            <intent-filter>
+                <action android:name=".Fifth_ex" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Res_4">
+            <intent-filter>
+                <action android:name=".Res_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Fourth_ex">
+            <intent-filter>
+                <action android:name=".Fourth_ex" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Res_3">
+            <intent-filter>
+                <action android:name=".Res_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Third_ex">
+            <intent-filter>
+                <action android:name=".Third_ex" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Res_2">
+            <intent-filter>
+                <action android:name=".Res_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second_ex">
+            <intent-filter>
+                <action android:name=".Second_ex" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".front_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Res">
+            <intent-filter>
+                <action android:name=".Res" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
